@@ -1,0 +1,55 @@
+body {
+	font-family: "Helvetica", sans-serif;
+	font-size: 16pt; 
+}
+
+#main-image {
+	background-image: url("../Images/Gary_Harris.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+#main-title {
+	font-size: 3.0em;
+	padding: 10 0 20 0; /*top right bottom left*/
+	background-color: #ff8000
+}
+
+.body-text {
+	padding-left: 20px;
+	background-color: #400080
+}
+
+#tiny-title {
+	font-size: 1.5em;
+	padding: 20 0 5 0;
+	background-color: #ff8000	
+}
+
+#second-title {
+	font-size: 3.0em;
+	padding: 10 0 10 0; /*top right bottom left*/
+}
+
+#second-image {
+	background-image: url("../Images/Dougie.jpg");
+	width: 20%;
+	height: 20%;
+	background-repeat: no-repeat;
+}
+
+#sub-head {
+	font-size: 1.5em;
+	padding: 20 0 5 0;
+}	
+.twobody-text {
+	padding-left: 20px;
+}
+
+#third-image {
+	background-image: url("../Images/Doug2.jpg");
+	width: 30%;
+	height: 30%;
+	background-repeat: no-repeat;
+}
