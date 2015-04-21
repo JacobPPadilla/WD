@@ -1,0 +1,115 @@
+<html>
+<head>
+	<title>Hilltop Happenings</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+	<nav class="top">
+		<div class="nav-header">
+			<a href="" title="">
+					<img src="Images/HH-Logo-1.png">
+			</a>
+			
+		</div>
+
+		<div>
+
+			<img class="menu-icon" src="Images/menu-icon.jpg"></img>
+			
+			<ul class="nav-list">
+				<li>
+					<a class="" href=""> 
+						News
+					</a>
+				</li>
+				<li>
+					<a class="" href="">
+						About
+					</a>
+				</li>
+				<li>
+					<a class="" href="http://www.gocreighton.com">
+						Bluejays
+					</a>
+				</li>
+			</ul>
+		</div>				
+			
+	</nav>
+	
+	<div class="stories-head">
+		<h1>TOP STORIES</h1>
+	</div>
+	
+	<div>
+		<ul class="stories">
+			<li>
+				<article class="images">
+					<div id="images"><img src="Images/Chat.jpg" alt=""></div>
+					<h2>Austin Chatman</h2>
+					<p>By Jacob Padilla</p>
+				</article>
+			</li>
+			<li>	
+				<article class="images">
+					<div id="images"><img src="Images/Doug.jpg" alt=""></div>
+					<h2>Doug McDermott</h2>
+					<p>By Jacob Padilla</p>
+				</article class="images">
+			</li>
+			<li>	
+				<article class="images">
+					<div id="images"><img src="Images/Jahenns.jpg" alt=""></div>
+					<h2>Jahenns Manigat</h2>
+					<p>By Jacob Padilla</p>
+				</article>
+			</li>
+			<li>	
+				<article class="images">
+					<div id="images"><img src="Images/Josh.jpg" alt=""></div>
+					<h2>Josh Jones</h2>
+					<p>By Jacob Padilla</p>
+				</article>
+			</li>	
+		</ul>
+	</div>		
+
+	<footer>
+	<p>Photos courtesy of White and Blue Review</p>
+	</footer>
+			
+			<!-- H-Menu -->
+	<script type="text/javascript">
+		$(function() {
+			$nav = $('.nav-list');
+
+			$('.menu-icon').click(function(){
+				$nav.slideToggle();
+			});
+		});
+
+	</script>
+
+			<!-- Scrolling Effect -->
+		<script type="text/javascript">
+			$function(){
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#break').offset().top}, 1000)
+				});
+
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#grids').offset().top}, 1000)
+				});
+
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#ems').offset().top}, 1000)
+				});
+
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#fimages').offset().top}, 1000)
+				});
+			});
+		</script>
+
+</body>
+</html>
